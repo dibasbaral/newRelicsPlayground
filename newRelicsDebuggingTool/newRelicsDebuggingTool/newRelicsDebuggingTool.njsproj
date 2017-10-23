@@ -11,7 +11,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>d6f0b277-cbc9-4cfc-adb1-3afda5ffc650</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>server.js</StartupFile>
+    <StartupFile>TestSuite\API Test\GET\DTC_Active_Directory_status.js</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -28,13 +28,14 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="TestSuite\API Test\POST\post.js" />
     <Compile Include="TestSuite\BrowserScript\driverfactory.js" />
     <Compile Include="server.js" />
-    <Compile Include="TestSuite\API Test\DTC_AvantiStatusCheck.js" />
-    <Compile Include="TestSuite\API Test\DTCDBstatusCheck.js" />
-    <Compile Include="TestSuite\API Test\DTC_Active_Directory_status.js" />
-    <Compile Include="TestSuite\API Test\DTC_UAT_IIS_START.js" />
-    <Compile Include="TestSuite\API Test\DTC_DynamicsStatus.js" />
+    <Compile Include="TestSuite\API Test\GET\DTC_AvantiStatusCheck.js" />
+    <Compile Include="TestSuite\API Test\GET\DTCDBstatusCheck.js" />
+    <Compile Include="TestSuite\API Test\GET\DTC_Active_Directory_status.js" />
+    <Compile Include="TestSuite\API Test\GET\DTC_UAT_IIS_START.js" />
+    <Compile Include="TestSuite\API Test\GET\DTC_DynamicsStatus.js" />
     <Compile Include="TestSuite\BrowserScript\ browser.js" />
     <Content Include="index.html" />
     <Content Include="package.json" />
@@ -43,6 +44,8 @@
   <ItemGroup>
     <Folder Include="TestSuite\" />
     <Folder Include="TestSuite\API Test\" />
+    <Folder Include="TestSuite\API Test\GET\" />
+    <Folder Include="TestSuite\API Test\POST\" />
     <Folder Include="TestSuite\BrowserScript\" />
   </ItemGroup>
   <!-- Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them. -->

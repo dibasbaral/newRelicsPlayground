@@ -27,6 +27,9 @@ driver.get('https://az.test:Password1@dtimecard.flynncompanies.com').then(functi
         console.log("error : " + error.message);
         throw new Error("authentication error found" + Json.parse(error.body));
     }
+    console.log("response : " + response);
+    console.log("body : " + body);
+
     
 });
 
