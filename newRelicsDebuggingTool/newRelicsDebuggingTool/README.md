@@ -9,3 +9,4 @@
 # click on the play button on top to run the script. the script debugs in a console.
 
 #tips on using request api. Follow link https://github.com/request/request#http-authentication
+# selenium webdriver go to https://seleniumhq.github.io/selenium/docs/api/javascript/index.html
