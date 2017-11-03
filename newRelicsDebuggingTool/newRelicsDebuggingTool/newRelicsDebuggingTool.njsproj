@@ -37,9 +37,11 @@
     <Compile Include="TestSuite\API Test\GET\DTC_UAT_IIS_START.js" />
     <Compile Include="TestSuite\API Test\GET\DTC_DynamicsStatus.js" />
     <Compile Include="TestSuite\BrowserScript\ browser.js" />
+    <Content Include="footest.py" />
     <Content Include="index.html" />
     <Content Include="package.json" />
     <Content Include="README.md" />
+    <Content Include="TestSuite\API Test\GET\priorweektimesheet.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="TestSuite\" />
