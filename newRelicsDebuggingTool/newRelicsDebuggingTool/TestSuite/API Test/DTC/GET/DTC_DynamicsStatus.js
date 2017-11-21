@@ -21,7 +21,7 @@ function callback(error, response, body) {
 
     console.log("responseStatus : ", response);
     console.log('body : ', JSON.parse(body));
-    assert.ok(response.statusCode == 200, 'Expected response 200');
+    assert.ok(response.statusCode === 200, 'Expected response 200');
 };
 
 

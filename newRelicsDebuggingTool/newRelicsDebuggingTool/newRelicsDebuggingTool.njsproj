@@ -11,7 +11,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>d6f0b277-cbc9-4cfc-adb1-3afda5ffc650</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>TestSuite\API Test\GET\DTC_Active_Directory_status.js</StartupFile>
+    <StartupFile>server.js</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -28,27 +28,32 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="TestSuite\API Test\POST\post.js" />
+    <Compile Include="TestSuite\API Test\DTC\GET\ServiceAPPDashboard.js" />
+    <Compile Include="TestSuite\API Test\DTC\POST\post.js" />
     <Compile Include="TestSuite\BrowserScript\driverfactory.js" />
     <Compile Include="server.js" />
-    <Compile Include="TestSuite\API Test\GET\DTC_AvantiStatusCheck.js" />
-    <Compile Include="TestSuite\API Test\GET\DTCDBstatusCheck.js" />
-    <Compile Include="TestSuite\API Test\GET\DTC_Active_Directory_status.js" />
-    <Compile Include="TestSuite\API Test\GET\DTC_UAT_IIS_START.js" />
-    <Compile Include="TestSuite\API Test\GET\DTC_DynamicsStatus.js" />
+    <Compile Include="TestSuite\API Test\DTC\GET\DTC_AvantiStatusCheck.js" />
+    <Compile Include="TestSuite\API Test\DTC\GET\DTCDBstatusCheck.js" />
+    <Compile Include="TestSuite\API Test\DTC\GET\DTC_Active_Directory_status.js" />
+    <Compile Include="TestSuite\API Test\DTC\GET\DTC_UAT_IIS_START.js" />
+    <Compile Include="TestSuite\API Test\DTC\GET\DTC_DynamicsStatus.js" />
     <Compile Include="TestSuite\BrowserScript\ browser.js" />
+    <Compile Include="TestSuite\ServiceApp\GET\ServiceAppDevStatus.js" />
+    <Content Include="diagram.html" />
     <Content Include="footest.py" />
     <Content Include="index.html" />
     <Content Include="package.json" />
     <Content Include="README.md" />
-    <Content Include="TestSuite\API Test\GET\priorweektimesheet.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="TestSuite\" />
     <Folder Include="TestSuite\API Test\" />
-    <Folder Include="TestSuite\API Test\GET\" />
-    <Folder Include="TestSuite\API Test\POST\" />
+    <Folder Include="TestSuite\API Test\DTC\GET\" />
+    <Folder Include="TestSuite\API Test\DTC\" />
+    <Folder Include="TestSuite\API Test\DTC\POST\" />
     <Folder Include="TestSuite\BrowserScript\" />
+    <Folder Include="TestSuite\ServiceApp\" />
+    <Folder Include="TestSuite\ServiceApp\GET\" />
   </ItemGroup>
   <!-- Do not delete the following Import Project.  While this appears to do nothing it is a marker for setting TypeScript properties before our import that depends on them. -->
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="False" />

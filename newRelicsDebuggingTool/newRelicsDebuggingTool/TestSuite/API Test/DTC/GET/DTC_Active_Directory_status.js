@@ -29,7 +29,7 @@ function callback(err, resp, body) {
     }
     console.log("response :", resp.statusCode);
     console.log("body : ", JSON.parse(body));
-    assert.ok(resp.statusCode == 200, 'expected 200 OK response');
+    assert.ok(resp.statusCode === 200, 'expected 200 OK response');
 };
 
 //http get
